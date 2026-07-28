@@ -1,9 +1,25 @@
 # Web Learning Journey
 
-This repository contains my web development learning projects.
+My daily frontend learning projects.
 
-## Day 1
-- Introduction to HTML
+## HTML
+- Day 1 - HTML Basics
+- Day 2 - HTML Practice
+- Day 3 - HTML Practice
+- Day 4 - HTML Practice
+- Day 5 - HTML Practice
+- Day 6 - CSS Selectors
+- Day 7 - Personal Profile Page
 
-## Day 2
-- Links and Images in HTML
+## CSS
+- Day 8 - Business Card
+- Day 9 - Tables, Lists, Links & Icons
+- Day 10 - Product Card
+- Day 11 - Styled Form
+- Day 12 - Flexbox Practice
+- Day 13 - Shoe Product Cards (Flexbox)
+
+## Next Goals
+- CSS Grid
+- Responsive Design
+- JavaScript
