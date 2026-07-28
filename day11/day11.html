@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day11</title>
+    <style>
+        form{
+    border: 1px solid;
+    width:500px;
+    height:500px;
+position: relative;
+box-sizing: border-box;
+background-color:#6a89cc ;
+padding: 10px;
+margin: 0px 40%;}
+
+#lname,#fname,#Addres{display: block;
+border-radius: 30px ;
+transition: .4s ease-out;
+}
+.back:focus{background-color: #636e72;}
+input[type=button]{display: block;
+background-color:#636e72; transition: .4s ease-in-out;
+cursor: pointer;
+border-radius: 30px;}
+input[type=button]:focus{background-color: #6a89cc;}
+input[type=radio]{color:#636e72;
+    cursor: pointer;
+}
+select{border-radius: 30px solid ;
+cursor: grab;}
+
+
+
+
+    </style>
+
+    </head>
+    <body>
+        <form>
+        
+
+           <label for="fname">FirstName
+
+            </label>
+            <input class="back" id="fname" type="text"/>
+            <label for="lname">LastName
+
+            </label>
+            <input class="back" id="lname" type="text"/>
+            <label for="Addres">Addres</label>
+            <input required class="back"  id="Addres" type="text"/>
+        <h1 class="form">Size</h1>
+            <input type="radio" class="back" name="size" id="37"/>
+            <label for="37">37</label>
+            <input type="radio" name="size" id="38"/>
+            <label for="38">38</label>
+            <input type="radio" name="size" id="39"/>
+            <label for="30">39</label>
+        <h1 class="form">color</h1>
+        <select id="color">
+            <option>Blue</option>
+            <option>Gray</option>
+            <option>Pink</option>
+        </select>
+        <h1 class="form">More</h1>
+        <textarea></textarea>
+        <input type="button" value="send"/>
+
+
+
+            
+
+
+        </form>
+        
+           
+    
+        
+
+    </body>
+</html>
