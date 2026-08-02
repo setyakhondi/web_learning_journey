@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+.header{ 
+    background-color:#a29bfe ;
+    grid-column: 4/-1;
+    text-align: center;
+
+}
+.menu{
+    background-color:#fd79a8 ;
+    grid-row: 1/-1;
+    grid-column: 1/4;
+    text-align: center;
+
+}
+.content{
+    background-color:#74b9ff ;
+    grid-row: 2/-1;
+    grid-column: 4/-1;
+    text-align: center;
+
+}
+.footer{
+    background-color: #ffeaa7;
+    grid-column: 1/-1;
+    text-align: center;
+
+}

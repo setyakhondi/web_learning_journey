@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-areas:
+    "m h h h h"
+    "m c c c c" 
+    "f f f f f";
+    grid-template-rows: repeat(3,200px);
+}
+.header{
+    background-color: rgb(169, 117, 218);
+    text-align: center;
+    grid-area: h;
+
+
+}
+.menu{
+    background-color: rgb(83, 83, 171);
+    text-align: center;
+     grid-area: m;
+
+
+}
+.content{
+    background-color: rgb(78, 174, 174);
+    text-align: center;
+     grid-area: c;
+
+
+}
+.footer{
+    background-color: rgb(17, 130, 92);
+    text-align: center;
+     grid-area: f;
+
+
+}
